@@ -1,0 +1,12 @@
+﻿field,meaning,unit,applies_to
+T_min,"Pulse FWHM, ramp rise duration, or sinusoidal period",min,canonical grids and traces
+tau_transport_min,Assigned plug delay or mean residence time,min,continuous models
+tau_sensor_min,Independent first-order sensing-layer time constant,min,continuous models
+rtd_shape,Gamma RTD shape; scale=tau_transport/rtd_shape,dimensionless,distributed_RTD
+amplitude_retention,Output excursion divided by input excursion,ratio,all scored runs
+NRMSE,RMSE normalized by input range on the original time axis,ratio,canonical grids
+feature_delay_min,"Peak delay, ramp t50 delay, or periodic phase delay",min,all scored runs
+pass_strict,"All strict amplitude, NRMSE, correlation, and delay criteria pass",boolean/PASS,canonical and empirical grids
+C_in_normalized,Canonical input waveform,normalized,representative traces
+C_f_normalized,Fluid waveform after topology-specific transport and before sensing kinetics,normalized,representative traces
+S_normalized,Final waveform after transport and first-order sensing kinetics,normalized,representative traces

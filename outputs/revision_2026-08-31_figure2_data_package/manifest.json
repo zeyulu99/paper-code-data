@@ -1,0 +1,108 @@
+{
+  "created": "2026-08-31",
+  "purpose": "Machine-readable inputs required to redraw quantitative Figure 2",
+  "recommended_fig2c_source": "02_canonical_extended_grid_1620.csv",
+  "canonical_primary_rows": 1080,
+  "canonical_extended_rows": 1620,
+  "empirical_waveforms": 7,
+  "empirical_full_runs": 1295,
+  "empirical_continuous_runs": 1155,
+  "representative_condition": {
+    "T_min": 30,
+    "tau_transport_min": 5,
+    "tau_sensor_min": 1,
+    "gamma_shape": 3
+  },
+  "files": [
+    {
+      "name": "01_canonical_primary_grid_1080.csv",
+      "role": "Reproduces the original six-point canonical grid",
+      "rows": 1080,
+      "sha256": "0144aa7f45bc6dedba20495e7744afc623a156e834ce82a0917080d0610bad05"
+    },
+    {
+      "name": "02_canonical_extended_grid_1620.csv",
+      "role": "Recommended source for the revised Fig. 2c because it resolves sub-0.5-min boundaries",
+      "rows": 1620,
+      "sha256": "aed5291393b740be3108323fa0d31eb02ac34bec5467f3e39ab91f3b311dd401"
+    },
+    {
+      "name": "03_canonical_waveform_register.csv",
+      "role": "Exact mathematical definitions of pulse, ramp, sinusoid, T, and parameter grids",
+      "rows": 3,
+      "sha256": "7853e7c299490f0f8d3a4865f7ae58ac83230320c4c3e1fb673182977e7a0653"
+    },
+    {
+      "name": "04_representative_model_traces.csv",
+      "role": "Real C_in, C_f, and S traces for Fig. 2b at T=30 min, tau_f=5 min, tau_s=1 min",
+      "rows": 43209,
+      "sha256": "9ed6352058997de0f57cb1becf73c486d6a9420277ad1fb64091a293da0d8dca"
+    },
+    {
+      "name": "05_empirical_waveforms_model_inputs.csv",
+      "role": "The seven exact resampled traces passed to the empirical models",
+      "rows": 2703,
+      "sha256": "8bc6441cf70e4b6373d0d652bd88aab8e6bf89e891c826409932dec46945ad3b"
+    },
+    {
+      "name": "06_empirical_waveforms_raw_digitized_points.csv",
+      "role": "Raw public-figure digitization points for the four Saha and three Choi traces",
+      "rows": 652,
+      "sha256": "117daf2383da08ad2ac67a16d908b96617636bca4917fb14bacc03e9a72d06c2"
+    },
+    {
+      "name": "07_empirical_stress_test_full_1295.csv",
+      "role": "All continuous, event-reset, and chronological empirical runs",
+      "rows": 1295,
+      "sha256": "4e81a1134ebb333c66f6f8e7dc86b0a3119c4a88ea648e8297117b93010858c7"
+    },
+    {
+      "name": "08_empirical_continuous_only_1155.csv",
+      "role": "Continuous cases only for Fig. 2d",
+      "rows": 1155,
+      "sha256": "665b9876f9566c151d932a22621b997679c0b75c47654d73d1a11528edea29b0"
+    },
+    {
+      "name": "09_empirical_operating_envelope.csv",
+      "role": "Precomputed strict and relaxed contiguous envelopes",
+      "rows": 38,
+      "sha256": "30861e85c9190286c8ac9536a751a1a44a6534cbd4c213070cdb39b68a0e4395"
+    },
+    {
+      "name": "10_digitization_manifest.csv",
+      "role": "Figure panel and pixel-to-axis calibration provenance",
+      "rows": 7,
+      "sha256": "6f8d8c227728e9c5a76186fbfd3a746dab0c6059930cb8438bb88a9c6054f0f1"
+    },
+    {
+      "name": "11_digitization_qc.csv",
+      "role": "Digitization quality-control checks",
+      "rows": 6,
+      "sha256": "590f499519ffbfe85aebf0b1a049583df8a8dc3bb607645c9d2dc510ad3459e5"
+    },
+    {
+      "name": "12_model_qc.json",
+      "role": "Model-run invariants and run-count check",
+      "rows": null,
+      "sha256": "b7c519426e579567267216ff4a177b97cd2fffaada5b75c2cfbbb3d8a561d074"
+    },
+    {
+      "name": "13_data_dictionary.csv",
+      "role": "Field definitions and units",
+      "rows": 11,
+      "sha256": "17bee2ba6ebdc225aeb88648e33a6da007f3add974b3d4b2a0a3efd6a02cf5e7"
+    }
+  ],
+  "scripts": [
+    "digitize_public_waveforms.py",
+    "run_evidence_closure_analysis.py",
+    "run_waveform_topology_analysis.py",
+    "transport_fidelity_models.py"
+  ],
+  "guardrails": [
+    "Use the extended 1,620-row grid for the revised Fig. 2c.",
+    "Treat Saha and Choi traces as already filtered device outputs.",
+    "Do not interpret assigned model thresholds as clinical acceptance limits.",
+    "Do not replace failed-at-minimum conditions with numerical zero values."
+  ]
+}

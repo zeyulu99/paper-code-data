@@ -1,0 +1,93 @@
+{
+  "status": "framework draft; weightings are schematic declarations",
+  "input": "baseline 0.10 + pulses at 20 min (FWHM 10, 0.90) and 75 min (FWHM 10, 0.55)",
+  "through_flow": {
+    "kind": "gamma",
+    "k": 3.0,
+    "mean_min": 3.0
+  },
+  "wick": {
+    "kind": "gamma",
+    "k": 1.5,
+    "mean_min": 20.0
+  },
+  "fill_measure_clear": {
+    "period_min": 15.0,
+    "fill_min": 10.0,
+    "measure_delay_min": 2.0,
+    "f_res": 0.15,
+    "first_readout_min": 12.0
+  },
+  "chronological": {
+    "window_min": 30.0,
+    "n": 4,
+    "readout_after_min": 120.0,
+    "shown": 3
+  },
+  "accumulation": {
+    "start_min": 0.0,
+    "end_min": 120.0,
+    "flow_trend": 0.8
+  },
+  "fmc_readouts": [
+    [
+      12.0,
+      0.1077043671315437
+    ],
+    [
+      27.0,
+      0.7184480987247173
+    ],
+    [
+      42.0,
+      0.20047158168590354
+    ],
+    [
+      57.0,
+      0.11507138507920439
+    ],
+    [
+      72.0,
+      0.1622003480690374
+    ],
+    [
+      87.0,
+      0.3535644011014758
+    ],
+    [
+      102.0,
+      0.13814055583680396
+    ],
+    [
+      117.0,
+      0.10571405202920973
+    ]
+  ],
+  "chrono_window_means": [
+    [
+      0.0,
+      30.0,
+      0.4153995475748876
+    ],
+    [
+      30.0,
+      60.0,
+      0.10308357091920198
+    ],
+    [
+      60.0,
+      90.0,
+      0.29441253213203183
+    ],
+    [
+      90.0,
+      120.0,
+      0.1000418381675838
+    ]
+  ],
+  "accumulation_mean_and_range": [
+    0.22850608790125967,
+    0.2121105095179813,
+    0.24490166628453802
+  ]
+}

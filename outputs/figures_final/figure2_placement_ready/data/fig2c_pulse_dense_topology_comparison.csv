@@ -1,0 +1,16 @@
+﻿waveform_type,topology,T_min,largest_tested_passing_tau_transport_min,status,tau_sensor_min
+pulse,plug,2,,NO_TESTED_PASS,1
+pulse,plug,5,,NO_TESTED_PASS,1
+pulse,plug,10,0.78749042,PASSING_BOUNDARY,1
+pulse,plug,30,3.9636591,PASSING_BOUNDARY,1
+pulse,plug,60,9.325336,PASSING_BOUNDARY,1
+pulse,cstr,2,,NO_TESTED_PASS,1
+pulse,cstr,5,,NO_TESTED_PASS,1
+pulse,cstr,10,0.78749042,PASSING_BOUNDARY,1
+pulse,cstr,30,4.3589477,PASSING_BOUNDARY,1
+pulse,cstr,60,10,PASSING_BOUNDARY,1
+pulse,gamma_rtd,2,,NO_TESTED_PASS,1
+pulse,gamma_rtd,5,,NO_TESTED_PASS,1
+pulse,gamma_rtd,10,0.78749042,PASSING_BOUNDARY,1
+pulse,gamma_rtd,30,3.9636591,PASSING_BOUNDARY,1
+pulse,gamma_rtd,60,9.325336,PASSING_BOUNDARY,1

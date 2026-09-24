@@ -1,0 +1,109 @@
+{
+  "panel": "Figure 1c",
+  "construction": "well-mixed transport (exponential E) and first-order sensor (exponential h) with exchanged time constants; transfer function 1/[(1+5s)(1+s)] for both pathways",
+  "pathways": {
+    "A": {
+      "tau_f": 5.0,
+      "tau_s": 1.0
+    },
+    "B": {
+      "tau_f": 1.0,
+      "tau_s": 5.0
+    }
+  },
+  "waveform": {
+    "kind": "pulse",
+    "fwhm_T_min": 10.0
+  },
+  "max_abs_S_A_minus_S_B": 7.771561172376096e-16,
+  "pathway_metrics_vs_input": {
+    "A": {
+      "amplitude_retention": 0.7307162057858291,
+      "nrmse": 0.13183891183279786,
+      "pearson_r": 0.7431194939465031,
+      "feature_delay_min": 4.3
+    },
+    "B": {
+      "amplitude_retention": 0.730716205785829,
+      "nrmse": 0.1318389118327978,
+      "pearson_r": 0.7431194939465033,
+      "feature_delay_min": 4.3
+    }
+  },
+  "released_grid_label_exchange_pairs": {
+    "well_mixed": {
+      "pairs": 45,
+      "max_abs_metric_difference": 3.3306690738754696e-15
+    },
+    "distributed_RTD": {
+      "pairs": 45,
+      "max_abs_metric_difference": 8.6
+    },
+    "plug_flow": {
+      "pairs": 45,
+      "max_abs_metric_difference": 7.5
+    }
+  },
+  "individual_assets": {
+    "c1_input_C_in": {
+      "axes_offset_in": [
+        0.46,
+        0.3
+      ],
+      "axes_size_in": [
+        1.0,
+        0.82
+      ]
+    },
+    "c2_pathwayA_transport": {
+      "axes_offset_in": [
+        0.06,
+        0.3
+      ],
+      "axes_size_in": [
+        0.95,
+        0.42
+      ]
+    },
+    "c3_pathwayA_sensor": {
+      "axes_offset_in": [
+        0.06,
+        0.3
+      ],
+      "axes_size_in": [
+        0.95,
+        0.42
+      ]
+    },
+    "c4_pathwayB_transport": {
+      "axes_offset_in": [
+        0.06,
+        0.3
+      ],
+      "axes_size_in": [
+        0.95,
+        0.42
+      ]
+    },
+    "c5_pathwayB_sensor": {
+      "axes_offset_in": [
+        0.06,
+        0.3
+      ],
+      "axes_size_in": [
+        0.95,
+        0.42
+      ]
+    },
+    "c6_output_S": {
+      "axes_offset_in": [
+        0.3,
+        0.3
+      ],
+      "axes_size_in": [
+        1.5,
+        1.08
+      ]
+    }
+  }
+}

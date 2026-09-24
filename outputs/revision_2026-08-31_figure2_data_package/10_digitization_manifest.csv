@@ -1,0 +1,8 @@
+﻿source,figure_panel,rendered_page,x_left_px,x_right_px,y_top_px,y_bottom_px,x_min,x_max,x_unit,y_min,y_max,y_unit,extraction,source_url
+Saha 2024,Fig3b_Subject1,PDF page 7 at 300 dpi,1222,1696,373,654,-15.0,130.0,min,90.0,150.0,mg/dL,black-line continuity + red marker centers,https://doi.org/10.1002/advs.202405518
+Saha 2024,Fig3b_Subject2,PDF page 7 at 300 dpi,1223,1707,771,1068,-15.0,130.0,min,90.0,150.0,mg/dL,black-line continuity + red marker centers,https://doi.org/10.1002/advs.202405518
+Saha 2024,Fig3b_Subject3,PDF page 7 at 300 dpi,1214,1706,1167,1454,-15.0,130.0,min,75.0,150.0,mg/dL,black-line continuity + red marker centers,https://doi.org/10.1002/advs.202405518
+Saha 2024,Fig3b_Subject4,PDF page 7 at 300 dpi,1212,1700,1575,1850,-15.0,130.0,min,75.0,180.0,mg/dL,black-line continuity + red marker centers,https://doi.org/10.1002/advs.202405518
+Choi 2020,Figure 1B,PDF page 2 at 300 dpi,790,1197,1003,1410,0.0,70.0,min,0.0,30.0,mM,red line color segmentation,https://doi.org/10.1038/s41598-020-64406-5
+Choi 2020,Figure 1C,PDF page 2 at 300 dpi,1339,1746,1009,1415,0.0,70.0,min,0.0,50.0,mM,blue line color segmentation,https://doi.org/10.1038/s41598-020-64406-5
+Choi 2020,Figure 1D,PDF page 2 at 300 dpi,1887,2293,1011,1418,0.0,70.0,min,0.0,60.0,mM,green line color segmentation,https://doi.org/10.1038/s41598-020-64406-5

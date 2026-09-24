@@ -1,0 +1,117 @@
+{
+  "panel": "Figure 1b",
+  "provenance": "rows of 02_canonical_extended_grid_1620.csv",
+  "grid_rows_checked": [
+    "transport: tau_f=5, tau_s=0",
+    "chain: tau_f=5, tau_s=5"
+  ],
+  "waveform": {
+    "kind": "pulse",
+    "fwhm_T_min": 10.0
+  },
+  "kernel": {
+    "topology": "distributed_RTD",
+    "shape_k": 3.0,
+    "mean_residence_tau_f_min": 5.0,
+    "numerical_area": 0.9999999999993685,
+    "numerical_mean_min": 5.00000002038884
+  },
+  "sensor": {
+    "model": "first order, g linear",
+    "tau_s_min": 5.0
+  },
+  "stage_metrics": {
+    "transport": {
+      "amplitude_retention": 0.8426655452881395,
+      "feature_delay_min": 4.55,
+      "nrmse": 0.13556813074610888,
+      "pearson_r": 0.7401599450557682
+    },
+    "chain": {
+      "amplitude_retention": 0.6571262703781847,
+      "feature_delay_min": 8.15,
+      "nrmse": 0.19238043495732415,
+      "pearson_r": 0.41002512364413507
+    },
+    "sensor_only": {
+      "amplitude_retention": 0.7798186054391106,
+      "feature_delay_min": 3.6,
+      "nrmse": 0.10912711535944686,
+      "pearson_r": 0.855142862632309
+    }
+  },
+  "moments_area_centroid_sd": {
+    "C_in": {
+      "area": 10.643856792488325,
+      "centroid_min": 62.999999999999986,
+      "sd_min": 4.246284501061571
+    },
+    "C_f": {
+      "area": 10.643856792488327,
+      "centroid_min": 68.00000002042042,
+      "sd_min": 5.134614414717276
+    },
+    "S": {
+      "area": 10.643856788926495,
+      "centroid_min": 73.0250416495467,
+      "sd_min": 7.1668718886657
+    }
+  },
+  "placeholder_region_in": {
+    "x0": 0.14,
+    "y0": 1.5,
+    "x1": 1.42,
+    "y1": 2.32
+  },
+  "figure_size_in": [
+    7.0,
+    2.6
+  ],
+  "individual_assets": {
+    "folder": "outputs/revision_2026-09-17/figure1b/individual",
+    "signal_asset_size_in": [
+      1.92,
+      1.14
+    ],
+    "signal_axes_offset_in": {
+      "left": 0.46,
+      "bottom": 0.3
+    },
+    "signal_axes_size_in": [
+      1.4,
+      0.78
+    ],
+    "kernel_asset_size_in": [
+      1.02,
+      0.94
+    ],
+    "kernel_axes_offset_in": {
+      "left": 0.22,
+      "bottom": 0.3
+    },
+    "kernel_axes_size_in": [
+      0.6,
+      0.5
+    ],
+    "schematic_canvas_in_composite_coords": {
+      "b9_channel_schematic": {
+        "x0": 2.16,
+        "x1": 3.86,
+        "y0": 1.58,
+        "y1": 2.34
+      },
+      "b10_channel_with_curved_arrow": {
+        "x0": 2.16,
+        "x1": 4.26,
+        "y0": 1.58,
+        "y1": 2.44
+      },
+      "b11_curved_arrow": {
+        "x0": 3.2,
+        "x1": 4.26,
+        "y0": 2.08,
+        "y1": 2.44
+      }
+    }
+  }
+}

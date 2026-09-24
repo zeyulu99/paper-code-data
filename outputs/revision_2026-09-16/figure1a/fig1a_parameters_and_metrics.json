@@ -1,0 +1,66 @@
+{
+  "panel": "Figure 1a",
+  "provenance": "rows of outputs/revision_2026-08-31_figure2_data_package/02_canonical_extended_grid_1620.csv",
+  "grid_rows_checked": [
+    {
+      "device": "Device A",
+      "grid_row": "extended_1620",
+      "released_pass_strict": true
+    },
+    {
+      "device": "Device B",
+      "grid_row": "extended_1620",
+      "released_pass_strict": false
+    }
+  ],
+  "waveform": {
+    "kind": "pulse",
+    "fwhm_T_min": 30.0,
+    "definition": "run_evidence_closure_analysis.canonical_waveform",
+    "display_baseline_au": 0.3,
+    "display_peak_au": 1.0,
+    "note": "a constant display offset leaves all four metrics unchanged"
+  },
+  "limit_of_detection_au": 0.1,
+  "plot_window_min": [
+    40.0,
+    190.0
+  ],
+  "device_A": {
+    "label": "Device A",
+    "topology": "distributed_RTD",
+    "tau_f": 2.0,
+    "tau_s": 1.0,
+    "shape": 3.0,
+    "amplitude_retention": 0.9929302109585425,
+    "feature_delay_min": 3.0,
+    "nrmse": 0.0509867950413508,
+    "pearson_r": 0.9829136211466435,
+    "display_peak": 0.9950511476709798,
+    "peak_over_lod": 9.950511476709798,
+    "fwhm_min": 30.150000000000006,
+    "pass_strict": true
+  },
+  "device_B": {
+    "label": "Device B",
+    "topology": "well_mixed",
+    "tau_f": 15.0,
+    "tau_s": 1.0,
+    "shape": null,
+    "amplitude_retention": 0.7421568566660054,
+    "feature_delay_min": 10.850000000000016,
+    "nrmse": 0.17624365247818546,
+    "pearson_r": 0.770847367356963,
+    "display_peak": 0.8195097999193401,
+    "peak_over_lod": 8.1950979991934,
+    "fwhm_min": 38.44999999999999,
+    "pass_strict": false
+  },
+  "strict_criteria": {
+    "amp": 0.9,
+    "nrmse": 0.1,
+    "r": 0.95,
+    "delay": 7.5
+  },
+  "reference_fwhm_min": 29.900000000000006
+}

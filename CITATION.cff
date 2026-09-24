@@ -1,0 +1,30 @@
+cff-version: 1.2.0
+title: "Temporal fidelity in wearable sweat sensing: code and data"
+message: "If you use this software or these data, please cite both this archive and the Perspective it accompanies."
+type: software
+authors:
+  - family-names: Lu
+    given-names: Zeyu
+    affiliation: "Department of Modern Mechanical Engineering, Waseda University, Tokyo, Japan"
+  - family-names: Montagut Marques
+    given-names: "Marc Josep"
+    affiliation: "Department of Integrative Bioscience and Biomedical Engineering, Waseda University, Tokyo, Japan"
+  - family-names: Hirose
+    given-names: Kayo
+    affiliation: "Department of Anesthesiology, The University of Tokyo Hospital, Tokyo, Japan"
+  - family-names: Umezu
+    given-names: Shinjiro
+    email: umeshin@waseda.jp
+    affiliation: "Department of Modern Mechanical Engineering, Waseda University, Tokyo, Japan"
+abstract: "Transport and sensor models, parameter grids, empirical stress tests, and figure scripts for the Perspective From Sensitivity to Temporal Fidelity in Wearable Sweat Sensing. Code is released under MIT; data files are released under CC BY 4.0."
+license: CC-BY-4.0
+license-url: "https://creativecommons.org/licenses/by/4.0/"
+keywords:
+  - wearable sweat sensing
+  - temporal fidelity
+  - sample age
+  - residence-time distribution
+  - microfluidics
+  - sensor kinetics
+version: "1.0.0"
+date-released: "2026-09-24"

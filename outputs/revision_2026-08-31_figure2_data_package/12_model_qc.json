@@ -1,0 +1,10 @@
+{
+  "status": "pass",
+  "waveforms": 7,
+  "model_runs": 1295,
+  "identity_max_abs_error": 0.0,
+  "all_metrics_finite": true,
+  "uncertainty_replicates_per_named_scenario": 200,
+  "random_seed": 20260807,
+  "input_scope": "public digitized empirical proxies; incremental architecture distortion only"
+}

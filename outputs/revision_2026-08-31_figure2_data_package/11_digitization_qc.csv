@@ -1,0 +1,7 @@
+﻿source,panel,metric,digitized_value,reported_or_expected,absolute_difference,tolerance,status,notes,source_url
+Saha 2024,Fig3b_Subject1,Pearson r: digitized SBG vs BG marker pairs,0.912,0.94,0.028,0.08,PASS,9 digitized BG/SBG pairs; Figure 3b(ii) reports Pr=0.94.,https://doi.org/10.1002/advs.202405518
+Saha 2024,Fig3b_Subject2,Pearson r: digitized SBG vs BG marker pairs,0.871,0.85,0.021,0.08,PASS,10 digitized BG/SBG pairs; Figure 3b(ii) reports Pr=0.85.,https://doi.org/10.1002/advs.202405518
+Saha 2024,Fig3b_Subject3,Pearson r: digitized SBG vs BG marker pairs,0.925,0.92,0.005,0.08,PASS,10 digitized BG/SBG pairs; Figure 3b(ii) reports Pr=0.92.,https://doi.org/10.1002/advs.202405518
+Saha 2024,Fig3b_Subject4,Pearson r: digitized SBG vs BG marker pairs,0.834,0.8,0.034,0.08,PASS,12 digitized BG/SBG pairs; Figure 3b(ii) reports Pr=0.80.,https://doi.org/10.1002/advs.202405518
+Choi 2020,B,Representative Figure 1 upstep t50,4.35,6.5,2.15,3.3,PASS,"Compared with the reported cohort mean; the Figure 1 trace is one representative subject, so equality is not expected.",https://doi.org/10.1038/s41598-020-64406-5
+Choi 2020,C,Representative Figure 1 downstep t50,9.922,6.7,3.222,3.2,REVIEW,"Compared with the reported cohort mean; the Figure 1 trace is one representative subject, so equality is not expected.",https://doi.org/10.1038/s41598-020-64406-5

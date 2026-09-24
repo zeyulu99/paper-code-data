@@ -1,0 +1,4 @@
+﻿waveform_type,T_definition,equation,feature_definition,T_values_min,dt_min,duration_definition,primary_tau_transport_min,extended_tau_transport_min,tau_sensor_min
+pulse,Gaussian full width at half maximum (FWHM),C_in(t)=exp[-0.5((t-0.35D)/(T/2.355))^2],peak time,2; 5; 10; 30; 60,0.05,"D=max(180 min,8T)",0.5; 1; 2; 5; 10; 15,0.05; 0.10; 0.25; 0.5; 1; 2; 5; 10; 15,0; 1; 2; 5
+ramp,duration of the linear 0-to-1 rise,"C_in(t)=clip((t-0.20D)/T,0,1)",t50 crossing,2; 5; 10; 30; 60,0.05,"D=max(180 min,8T)",0.5; 1; 2; 5; 10; 15,0.05; 0.10; 0.25; 0.5; 1; 2; 5; 10; 15,0; 1; 2; 5
+sinusoid,oscillation period,C_in(t)=0.5+0.5 sin(2 pi t/T),steady-state cross-correlation phase delay,2; 5; 10; 30; 60,0.05,"D=max(180 min,8T)",0.5; 1; 2; 5; 10; 15,0.05; 0.10; 0.25; 0.5; 1; 2; 5; 10; 15,0; 1; 2; 5
