@@ -3,9 +3,15 @@
 Code and machine-readable outputs for the Perspective *From Sensitivity to
 Temporal Fidelity in Wearable Sweat Sensing* (submitted to ACS Sensors).
 
-Everything here is computational. The Perspective reports no new experimental
-data. Model parameters are declared for illustration and are not measurements
-of any device.
+## Scope
+
+These materials support a Perspective, that is, a peer-reviewed opinion and
+review article. They contain no new experimental data. Everything here is
+either a model output computed from the equations stated in the article, or a
+set of coordinates digitized from figures in already published papers. Model
+parameters are declared for illustration and are not measurements of any
+device, and none of the numbers here should be read as an experimental
+characterization of a sensor.
 
 ## Reproducing the analyses
 
